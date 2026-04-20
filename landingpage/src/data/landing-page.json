@@ -102,6 +102,93 @@
             }
           }
         ]
+      },
+      {
+        "id": "payments-operations",
+        "cards": [
+          {
+            "title": "Point of sale",
+            "variant": "pos",
+            "image": {
+              "src": "/image1.png",
+              "alt": "Point of sale interface preview"
+            }
+          },
+          {
+            "title": "Self-service",
+            "variant": "selfService",
+            "image": {
+              "src": "/iamge2.png",
+              "alt": "Self-service kiosk preview"
+            }
+          },
+          {
+            "title": "Kitchen management",
+            "variant": "kitchenManagement",
+            "image": {
+              "src": "/image3.png",
+              "alt": "Kitchen management dashboard preview"
+            }
+          }
+        ]
+      },
+      {
+        "id": "venue-control",
+        "cards": [
+          {
+            "title": "Point of sale",
+            "variant": "pos",
+            "image": {
+              "src": "/image1.png",
+              "alt": "Point of sale interface preview"
+            }
+          },
+          {
+            "title": "Self-service",
+            "variant": "selfService",
+            "image": {
+              "src": "/iamge2.png",
+              "alt": "Self-service kiosk preview"
+            }
+          },
+          {
+            "title": "Kitchen management",
+            "variant": "kitchenManagement",
+            "image": {
+              "src": "/image3.png",
+              "alt": "Kitchen management dashboard preview"
+            }
+          }
+        ]
+      },
+      {
+        "id": "restaurant-intelligence",
+        "cards": [
+          {
+            "title": "Point of sale",
+            "variant": "pos",
+            "image": {
+              "src": "/image1.png",
+              "alt": "Point of sale interface preview"
+            }
+          },
+          {
+            "title": "Self-service",
+            "variant": "selfService",
+            "image": {
+              "src": "/iamge2.png",
+              "alt": "Self-service kiosk preview"
+            }
+          },
+          {
+            "title": "Kitchen management",
+            "variant": "kitchenManagement",
+            "image": {
+              "src": "/image3.png",
+              "alt": "Kitchen management dashboard preview"
+            }
+          }
+        ]
       }
     ],
     "controls": {
