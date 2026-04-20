@@ -1,0 +1,112 @@
+{
+  "hero": {
+    "eyebrow": "Explore Grafterr",
+    "title": {
+      "lineOne": "Looking for a new",
+      "lineTwo": "technology provider?"
+    },
+    "description": "Explore our success stories to see how businesses like yours have transformed with Grafterr’s technology.",
+    "primaryAction": {
+      "label": "Learn more",
+      "href": "#features"
+    }
+  },
+  "featuresSection": {
+    "id": "features",
+    "title": "More ways Grafterr can help you grow your business",
+    "description": "An award-winning, end-to-end restaurant technology & payments platform designed to streamline food service and automate complex venue operations.",
+    "slides": [
+      {
+        "id": "core-operations",
+        "cards": [
+          {
+            "title": "Point of sale",
+            "variant": "pos",
+            "image": {
+              "src": "/image1.png",
+              "alt": "Point of sale interface preview"
+            }
+          },
+          {
+            "title": "Self-service",
+            "variant": "selfService",
+            "image": {
+              "src": "/iamge2.png",
+              "alt": "Self-service kiosk preview"
+            }
+          },
+          {
+            "title": "Kitchen management",
+            "variant": "kitchenManagement",
+            "image": {
+              "src": "/image3.png",
+              "alt": "Kitchen management dashboard preview"
+            }
+          }
+        ]
+      },
+      {
+        "id": "guest-experience",
+        "cards": [
+          {
+            "title": "Point of sale",
+            "variant": "pos",
+            "image": {
+              "src": "/image1.png",
+              "alt": "Point of sale interface preview"
+            }
+          },
+          {
+            "title": "Self-service",
+            "variant": "selfService",
+            "image": {
+              "src": "/iamge2.png",
+              "alt": "Self-service kiosk preview"
+            }
+          },
+          {
+            "title": "Kitchen management",
+            "variant": "kitchenManagement",
+            "image": {
+              "src": "/image3.png",
+              "alt": "Kitchen management dashboard preview"
+            }
+          }
+        ]
+      },
+      {
+        "id": "service-workflows",
+        "cards": [
+          {
+            "title": "Point of sale",
+            "variant": "pos",
+            "image": {
+              "src": "/image1.png",
+              "alt": "Point of sale interface preview"
+            }
+          },
+          {
+            "title": "Self-service",
+            "variant": "selfService",
+            "image": {
+              "src": "/iamge2.png",
+              "alt": "Self-service kiosk preview"
+            }
+          },
+          {
+            "title": "Kitchen management",
+            "variant": "kitchenManagement",
+            "image": {
+              "src": "/image3.png",
+              "alt": "Kitchen management dashboard preview"
+            }
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "previousLabel": "Previous",
+      "nextLabel": "Next"
+    }
+  }
+}
