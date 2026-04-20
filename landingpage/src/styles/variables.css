@@ -1,0 +1,20 @@
+:root {
+  --color-page-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #777777;
+  --color-text-soft: #1a1a1add;
+  --color-card-bg: #fafafa;
+  --color-line: #98a2b3;
+  --color-line-active: #1f2937;
+  --color-button-border: #cbd5e1;
+  --color-button-disabled-border: #e2e8f0;
+  --color-button-disabled-bg: #f1f5f9;
+  --color-button-disabled-text: #cbd5e1;
+  --color-accent-blue: #62c5e5;
+  --color-accent-red: #f05a4a;
+  --gradient-brand: linear-gradient(90deg, #5895f0 0%, #f1b662 100%);
+  --shadow-card: 0 15px 40px -30px rgba(15, 23, 42, 0.25);
+  --shadow-button: 0 4px 12px rgba(15, 23, 42, 0.08);
+  --font-family-base: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-family-display: var(--font-raleway), ui-sans-serif, system-ui, sans-serif;
+}

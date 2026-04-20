@@ -1,0 +1,137 @@
+.feature-card {
+  border-radius: 1.75rem;
+  background: var(--color-card-bg);
+  padding: 1rem;
+  box-shadow: var(--shadow-button);
+}
+
+.feature-card__title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.feature-card__media {
+  position: relative;
+  margin-top: 1rem;
+  aspect-ratio: 5 / 6;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  background: var(--color-card-bg);
+  box-shadow: var(--shadow-card);
+}
+
+.carousel-progress {
+  width: 100%;
+  max-width: 452px;
+  padding-inline: 1rem;
+  margin-inline: auto;
+}
+
+.carousel-progress__track {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background: var(--color-line);
+}
+
+.carousel-progress__thumb {
+  position: absolute;
+  top: 50%;
+  height: 4px;
+  width: 68px;
+  transform: translateY(-50%);
+  border-radius: 999px;
+  background: var(--color-line-active);
+  transition: transform 0.5s ease-out;
+}
+
+.carousel-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.carousel-control {
+  display: inline-flex;
+  height: 2.75rem;
+  width: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-button-border);
+  border-radius: 999px;
+  background: #ffffff;
+  color: #334155;
+  box-shadow: var(--shadow-button);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.carousel-control:hover:not(:disabled) {
+  background: #f8fafc;
+}
+
+.carousel-control:disabled {
+  cursor: not-allowed;
+  border-color: var(--color-button-disabled-border);
+  background: var(--color-button-disabled-bg);
+  color: var(--color-button-disabled-text);
+}
+
+.hero-button {
+  display: inline-flex;
+  height: 60px;
+  width: 100%;
+  max-width: 318px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  padding-inline: 1.5rem;
+  background: var(--gradient-brand);
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--font-family-display);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: -0.5px;
+  transition: filter 0.2s ease;
+}
+
+.hero-button:hover {
+  filter: brightness(1.05);
+}
+
+@media (min-width: 640px) {
+  .feature-card {
+    padding: 1.25rem;
+  }
+
+  .feature-card__title {
+    font-size: 1.125rem;
+  }
+
+  .feature-card__media {
+    margin-top: 1.25rem;
+  }
+
+  .carousel-control {
+    height: 3rem;
+    width: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .feature-card__media {
+    aspect-ratio: 4 / 5;
+  }
+}
+
+@media (min-width: 1024px) {
+  .feature-card__media {
+    aspect-ratio: 5 / 6;
+  }
+}
