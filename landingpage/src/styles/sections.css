@@ -26,7 +26,7 @@
   width: 100%;
   flex-direction: column;
   justify-content: center;
-  padding: 2.5rem 1rem;
+  /* padding: 2.5rem 1rem; */
 }
 
 .hero-section__content {
@@ -240,7 +240,7 @@
   }
 
   .hero-section {
-    padding-inline: 3rem;
+    padding-inline: 2rem;
   }
 
   .hero-section__title {
