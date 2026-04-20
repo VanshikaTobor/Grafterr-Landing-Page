@@ -5,7 +5,11 @@
       "lineOne": "Looking for a new",
       "lineTwo": "technology provider?"
     },
-    "description": "Explore our success stories to see how businesses like yours have transformed with Grafterr’s technology.",
+    "description": {
+      "beforeHighlight": "Explore our ",
+      "highlight": "success story",
+      "afterHighlight": " to see how businesses like yours have transformed with Grafterr’s technology."
+    },
     "primaryAction": {
       "label": "Learn more",
       "href": "#features"

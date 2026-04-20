@@ -6,7 +6,11 @@ type HeroContent = {
     lineOne: string;
     lineTwo: string;
   };
-  description: string;
+  description: {
+    beforeHighlight: string;
+    highlight: string;
+    afterHighlight: string;
+  };
   primaryAction: {
     label: string;
     href: string;

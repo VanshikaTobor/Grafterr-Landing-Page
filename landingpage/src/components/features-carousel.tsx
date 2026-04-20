@@ -26,6 +26,7 @@ export function FeaturesCarousel({ section }: { section: FeaturesSectionContent 
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const isFirstSlide = activeSlideIndex === 0;
   const isLastSlide = activeSlideIndex === section.slides.length - 1;
+  const titleParts = section.title.split("Grafterr");
 
   function showPreviousSlide() {
     if (isFirstSlide) {
@@ -45,16 +46,42 @@ export function FeaturesCarousel({ section }: { section: FeaturesSectionContent 
 
   return (
     <div id={section.id} className="space-y-8">
-      <div className="mx-auto max-w-3xl px-2 text-center sm:px-0">
-        <h2 className="text-2xl font-semibold text-slate-950 sm:text-3xl lg:text-4xl">
-          {section.title}
+      <div className="relative mx-auto max-w-4xl px-2 py-4 text-center sm:px-0">
+        <svg
+          viewBox="0 0 36 36"
+          aria-hidden="true"
+          className="pointer-events-none absolute left-0 top-1 h-[14px] w-[14px] sm:left-[2%] sm:top-0 sm:h-[18px] sm:w-[18px] md:left-[3%] md:h-[24px] md:w-[24px] lg:left-[0%] lg:h-[62px] lg:w-[62px]"
+        >
+          <path
+            d="M8 13C8 8.03 12.03 4 17 4C20.16 4 22.94 5.64 24.54 8.12L15.73 20.98C11.19 20.35 8 16.45 8 12.44V13Z"
+            fill="#62C5E5"
+          />
+        </svg>
+        <div
+          className="pointer-events-none absolute right-0 top-3 h-[16px] w-[16px] -rotate-[8deg] bg-[#F05A4A] sm:right-[2%] sm:top-3 sm:h-[22px] sm:w-[22px] md:right-[3%] md:top-4 md:h-[26px] md:w-[26px] lg:right-[0%] lg:top-5 lg:h-[22px] lg:w-[22px]"
+          style={{ clipPath: "path('M12 4C23 -3 39 -1 54 6L44 58L0 44C2 28 5 14 12 4Z')" }}
+        />
+
+        <h2 className="mx-auto max-w-6xl px-8 text-center font-[family-name:var(--font-raleway)] text-[32px] leading-[1.18] font-semibold tracking-[-0.035em] text-[#1A1A1A] sm:px-12 sm:text-[40px] md:px-16 md:text-[46px] lg:px-0 lg:text-[54px] lg:leading-[68px]">
+          {titleParts[0]}
+          {titleParts.length > 1 ? <span className="text-[#777777]">Grafterr</span> : null}
+          {titleParts[1] ?? ""}
         </h2>
-        <p className="mt-4 text-sm leading-7 text-slate-500 sm:text-base">
+        <p className="mx-auto mt-5 max-w-3xl text-center font-[family-name:var(--font-raleway)] text-[18px] leading-[30px] font-normal tracking-[-0.02em] text-[#777777] sm:text-[20px] sm:leading-[34px]">
           {section.description}
         </p>
       </div>
 
-      <div className="mx-auto h-1 w-24 rounded-full bg-slate-200" />
+      <div className="mx-auto w-full max-w-[452px] px-4">
+        <div className="relative h-px w-full bg-slate-400">
+          <div
+            className="absolute top-1/2 h-[4px] w-[68px] -translate-y-1/2 rounded-full bg-slate-900 transition-transform duration-500 ease-out"
+            style={{
+              transform: `translate(${(activeSlideIndex / Math.max(section.slides.length - 1, 1)) * (452 - 68)}px, -50%)`,
+            }}
+          />
+        </div>
+      </div>
 
       <div className="overflow-hidden">
         <div
