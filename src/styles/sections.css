@@ -22,7 +22,7 @@
 
 .hero-section {
   display: flex;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 250px);
   width: 100%;
   flex-direction: column;
   justify-content: center;
@@ -120,7 +120,7 @@
   margin: 0 auto;
   padding-inline: 2rem;
   text-align: center;
-  font-family: var(--font-family-display);
+  font-family: var(--font-raleway), ui-sans-serif, system-ui, sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 1.18;
