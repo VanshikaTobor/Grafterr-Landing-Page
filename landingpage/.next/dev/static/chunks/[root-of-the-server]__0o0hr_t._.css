@@ -1,0 +1,964 @@
+/* [next]/internal/font/google/geist_a71539c9.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/8a480f0b521d4e75-s.06d3mdzz5bre_.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/7178b3e590c64307-s.11.cyxs5p-0z~.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Fallback;
+  src: local(Arial);
+  ascent-override: 95.94%;
+  descent-override: 28.16%;
+  line-gap-override: 0.0%;
+  size-adjust: 104.76%;
+}
+
+.geist_a71539c9-module__T19VSG__className {
+  font-family: Geist, Geist Fallback;
+  font-style: normal;
+}
+
+.geist_a71539c9-module__T19VSG__variable {
+  --font-geist-sans: "Geist", "Geist Fallback";
+}
+
+/* [next]/internal/font/google/geist_mono_8d43a2aa.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/4fa387ec64143e14-s.0q3udbd2bu5yp.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/bbc41e54d2fcbd21-s.0gw~uztddq1df.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Mono Fallback;
+  src: local(Arial);
+  ascent-override: 74.67%;
+  descent-override: 21.92%;
+  line-gap-override: 0.0%;
+  size-adjust: 134.59%;
+}
+
+.geist_mono_8d43a2aa-module__8Li5zG__className {
+  font-family: Geist Mono, Geist Mono Fallback;
+  font-style: normal;
+}
+
+.geist_mono_8d43a2aa-module__8Li5zG__variable {
+  --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
+}
+
+/* [next]/internal/font/google/raleway_e5aadea0.module.css [app-client] (css) */
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/198d17f2fc7b7e24-s.11r88ahcf73ag.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/bb835a708696869b-s.0b8i86yy3ch4j.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/6c7c54d92ecafd95-s.00sr22ka9ei2v.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/4b825e536f0add60-s.0diytsp97~my7.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/c825fd02acae0153-s.p.0js52-zd~6bs8.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Raleway Fallback;
+  src: local(Arial);
+  ascent-override: 90.51%;
+  descent-override: 22.53%;
+  line-gap-override: 0.0%;
+  size-adjust: 103.86%;
+}
+
+.raleway_e5aadea0-module__-yt65W__className {
+  font-family: Raleway, Raleway Fallback;
+  font-style: normal;
+}
+
+.raleway_e5aadea0-module__-yt65W__variable {
+  --font-raleway: "Raleway", "Raleway Fallback";
+}
+
+/* [project]/src/app/globals.css [app-client] (css) */
+@layer properties {
+  @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+    *, :before, :after, ::backdrop {
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
+    }
+  }
+}
+
+@layer theme {
+  :root, :host {
+    --color-slate-50: #f8fafc;
+    --spacing: .25rem;
+    --default-font-family: var(--font-geist-sans);
+    --default-mono-font-family: var(--font-geist-mono);
+    --font-raleway: var(--font-raleway);
+  }
+
+  @supports (color: lab(0% 0 0)) {
+    :root, :host {
+      --color-slate-50: lab(98.1434% -.369549 -1.05968);
+    }
+  }
+}
+
+@layer base {
+  *, :after, :before, ::backdrop {
+    box-sizing: border-box;
+    border: 0 solid;
+    margin: 0;
+    padding: 0;
+  }
+
+  ::file-selector-button {
+    box-sizing: border-box;
+    border: 0 solid;
+    margin: 0;
+    padding: 0;
+  }
+
+  html, :host {
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    line-height: 1.5;
+    font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+
+  b, strong {
+    font-weight: bolder;
+  }
+
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+
+  small {
+    font-size: 80%;
+  }
+
+  sub, sup {
+    vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+  }
+
+  sub {
+    bottom: -.25em;
+  }
+
+  sup {
+    top: -.5em;
+  }
+
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+
+  :-moz-focusring {
+    outline: auto;
+  }
+
+  progress {
+    vertical-align: baseline;
+  }
+
+  summary {
+    display: list-item;
+  }
+
+  ol, ul, menu {
+    list-style: none;
+  }
+
+  img, svg, video, canvas, audio, iframe, embed, object {
+    vertical-align: middle;
+    display: block;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  button, input, select, optgroup, textarea {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    opacity: 1;
+    background-color: #0000;
+    border-radius: 0;
+  }
+
+  ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    opacity: 1;
+    background-color: #0000;
+    border-radius: 0;
+  }
+
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+
+  ::placeholder {
+    opacity: 1;
+  }
+
+  @supports (not ((-webkit-appearance: -apple-pay-button))) or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentColor;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      ::placeholder {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+
+  ::-webkit-datetime-edit {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-year-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-month-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-day-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-hour-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-minute-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-second-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-millisecond-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+
+  ::-webkit-calendar-picker-indicator {
+    line-height: 1;
+  }
+
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+
+  button, input:where([type="button"], [type="reset"], [type="submit"]) {
+    appearance: button;
+  }
+
+  ::file-selector-button {
+    appearance: button;
+  }
+
+  ::-webkit-inner-spin-button {
+    height: auto;
+  }
+
+  ::-webkit-outer-spin-button {
+    height: auto;
+  }
+
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+
+@layer components;
+
+@layer utilities {
+  .start {
+    inset-inline-start: var(--spacing);
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .h-full {
+    height: 100%;
+  }
+
+  .min-h-full {
+    min-height: 100%;
+  }
+
+  .grow {
+    flex-grow: 1;
+  }
+
+  .transform {
+    transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .bg-slate-50 {
+    background-color: var(--color-slate-50);
+  }
+
+  .object-cover {
+    object-fit: cover;
+  }
+
+  .object-center {
+    object-position: center;
+  }
+
+  .antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+:root {
+  --color-page-bg: #fff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #777;
+  --color-text-soft: #1a1a1add;
+  --color-card-bg: #fafafa;
+  --color-line: #98a2b3;
+  --color-line-active: #1f2937;
+  --color-button-border: #cbd5e1;
+  --color-button-disabled-border: #e2e8f0;
+  --color-button-disabled-bg: #f1f5f9;
+  --color-button-disabled-text: #cbd5e1;
+  --color-accent-blue: #62c5e5;
+  --color-accent-red: #f05a4a;
+  --gradient-brand: linear-gradient(90deg, #5895f0 0%, #f1b662 100%);
+  --shadow-card: 0 15px 40px -30px #0f172a40;
+  --shadow-button: 0 4px 12px #0f172a14;
+  --font-family-base: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-family-display: var(--font-raleway), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-page-bg);
+  min-height: 100vh;
+  color: var(--color-text);
+  font-family: var(--font-family-base);
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+.feature-card {
+  background: var(--color-card-bg);
+  box-shadow: var(--shadow-button);
+  border-radius: 1.75rem;
+  padding: 1rem;
+}
+
+.feature-card__title {
+  color: var(--color-text);
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.feature-card__media {
+  aspect-ratio: 5 / 6;
+  background: var(--color-card-bg);
+  box-shadow: var(--shadow-card);
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-progress {
+  width: 100%;
+  max-width: 452px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.carousel-progress__track {
+  background: var(--color-line);
+  width: 100%;
+  height: 1px;
+  position: relative;
+}
+
+.carousel-progress__thumb {
+  background: var(--color-line-active);
+  border-radius: 999px;
+  width: 68px;
+  height: 4px;
+  transition: transform .5s ease-out;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-controls {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.carousel-control {
+  border: 1px solid var(--color-button-border);
+  color: #334155;
+  width: 2.75rem;
+  height: 2.75rem;
+  box-shadow: var(--shadow-button);
+  background: #fff;
+  border-radius: 999px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .2s, color .2s, border-color .2s;
+  display: inline-flex;
+}
+
+.carousel-control:hover:not(:disabled) {
+  background: #f8fafc;
+}
+
+.carousel-control:disabled {
+  cursor: not-allowed;
+  border-color: var(--color-button-disabled-border);
+  background: var(--color-button-disabled-bg);
+  color: var(--color-button-disabled-text);
+}
+
+.hero-button {
+  background: var(--gradient-brand);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  max-width: 318px;
+  height: 60px;
+  font-family: var(--font-family-display);
+  letter-spacing: -.5px;
+  border-radius: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 1.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.14;
+  transition: filter .2s;
+  display: inline-flex;
+}
+
+.hero-button:hover {
+  filter: brightness(1.05);
+}
+
+@media (min-width: 640px) {
+  .feature-card {
+    padding: 1.25rem;
+  }
+
+  .feature-card__title {
+    font-size: 1.125rem;
+  }
+
+  .feature-card__media {
+    margin-top: 1.25rem;
+  }
+
+  .carousel-control {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .feature-card__media {
+    aspect-ratio: 4 / 5;
+  }
+}
+
+@media (min-width: 1024px) {
+  .feature-card__media {
+    aspect-ratio: 5 / 6;
+  }
+}
+
+.landing-page {
+  background: var(--color-page-bg);
+  width: 100%;
+  min-height: 100vh;
+  color: var(--color-text);
+}
+
+.landing-page__shell {
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+}
+
+.landing-page__main {
+  flex-direction: column;
+  flex: 1;
+  gap: 3rem;
+  display: flex;
+}
+
+.hero-section {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+}
+
+.hero-section__content {
+  text-align: center;
+  width: 100%;
+  max-width: 48rem;
+  margin-inline: auto;
+}
+
+.hero-section__title {
+  font-family: var(--font-family-display);
+  letter-spacing: -1px;
+  text-align: center;
+  color: var(--color-text);
+  margin: 0;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.hero-section__title-accent {
+  background: var(--gradient-brand);
+  color: #0000;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: block;
+}
+
+.hero-section__description {
+  text-align: center;
+  width: 100%;
+  max-width: 42rem;
+  font-family: var(--font-family-display);
+  letter-spacing: -.01em;
+  color: var(--color-text-soft);
+  margin: 1.5rem auto 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.hero-section__description-highlight {
+  font-weight: 700;
+}
+
+.hero-section__actions {
+  justify-content: center;
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.features-section {
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+}
+
+.features-section__header {
+  text-align: center;
+  width: 100%;
+  max-width: 56rem;
+  margin-inline: auto;
+  padding: 1rem .5rem;
+  position: relative;
+}
+
+.features-section__accent-left {
+  pointer-events: none;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: .25rem;
+  left: 0;
+}
+
+.features-section__accent-right {
+  background: var(--color-accent-red);
+  width: 16px;
+  height: 16px;
+  clip-path: path("M12 4C23 -3 39 -1 54 6L44 58L0 44C2 28 5 14 12 4Z");
+  pointer-events: none;
+  position: absolute;
+  top: .75rem;
+  right: 0;
+  transform: rotate(-8deg);
+}
+
+.features-section__title {
+  text-align: center;
+  width: 100%;
+  max-width: 72rem;
+  font-family: var(--font-family-display);
+  letter-spacing: -.035em;
+  color: var(--color-text);
+  margin: 0 auto;
+  padding-inline: 2rem;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.18;
+}
+
+.features-section__title-accent {
+  color: var(--color-text-muted);
+}
+
+.features-section__description {
+  text-align: center;
+  width: 100%;
+  max-width: 48rem;
+  font-family: var(--font-family-display);
+  letter-spacing: -.02em;
+  color: var(--color-text-muted);
+  margin: 1.25rem auto 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.features-section__viewport {
+  overflow: hidden;
+}
+
+.features-section__track {
+  transition: transform .5s ease-out;
+  display: flex;
+}
+
+.features-section__slide {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.features-section__grid {
+  gap: 1.25rem;
+  display: grid;
+}
+
+@media (min-width: 640px) {
+  .landing-page__shell {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .landing-page__main {
+    gap: 3.5rem;
+  }
+
+  .hero-section {
+    padding-inline: 1.5rem;
+  }
+
+  .hero-section__title {
+    font-size: 56px;
+  }
+
+  .features-section__accent-left {
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 2%;
+  }
+
+  .features-section__accent-right {
+    width: 22px;
+    height: 22px;
+    top: .75rem;
+    right: 2%;
+  }
+
+  .features-section__title {
+    padding-inline: 3rem;
+    font-size: 40px;
+  }
+
+  .features-section__description {
+    font-size: 20px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 768px) {
+  .features-section__accent-left {
+    width: 24px;
+    height: 24px;
+    left: 3%;
+  }
+
+  .features-section__accent-right {
+    width: 26px;
+    height: 26px;
+    top: 1rem;
+    right: 3%;
+  }
+
+  .features-section__title {
+    padding-inline: 4rem;
+    font-size: 46px;
+  }
+
+  .features-section__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .landing-page__shell {
+    padding: 3rem;
+  }
+
+  .landing-page__main {
+    gap: 4rem;
+  }
+
+  .hero-section {
+    padding-inline: 2rem;
+  }
+
+  .hero-section__title {
+    font-size: 75px;
+    line-height: 94px;
+  }
+
+  .features-section__accent-left {
+    width: 62px;
+    height: 62px;
+    top: 0;
+    left: 0;
+  }
+
+  .features-section__accent-right {
+    width: 22px;
+    height: 22px;
+    top: 1.25rem;
+    right: 0;
+  }
+
+  .features-section__title {
+    padding-inline: 0;
+    font-size: 54px;
+    line-height: 68px;
+  }
+
+  .features-section__grid {
+    gap: 1.5rem;
+  }
+}
+
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false
+}
+
+/*# sourceMappingURL=%5Broot-of-the-server%5D__0o0hr_t._.css.map*/

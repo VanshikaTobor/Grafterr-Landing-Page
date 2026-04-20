@@ -1,0 +1,234 @@
+{"timestamp":"00:00:01.245","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:21.114","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:21.158","source":"Browser","level":"WARN","message":"Image with src \"http://localhost:3001/vercel.svg\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:00:21.173","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"http://localhost:3001/vercel.svg\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:00:21.173","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"http://localhost:3001/vercel.svg\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:24:29.626","source":"Server","level":"LOG","message":"✓ Compiled in 317ms"}
+{"timestamp":"00:24:30.680","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:36:10.253","source":"Server","level":"LOG","message":"✓ Compiled in 386ms"}
+{"timestamp":"00:36:10.477","source":"Server","level":"WARN","message":"⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.\nRead more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport"}
+{"timestamp":"00:36:10.650","source":"Server","level":"WARN","message":"⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.\nRead more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport"}
+{"timestamp":"00:36:10.788","source":"Server","level":"WARN","message":"⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.\nRead more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport"}
+{"timestamp":"00:38:13.276","source":"Server","level":"WARN","message":"⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.\nRead more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport"}
+{"timestamp":"00:38:13.586","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:38:24.785","source":"Server","level":"LOG","message":"✓ Compiled in 58ms"}
+{"timestamp":"01:32:38.109","source":"Server","level":"LOG","message":"✓ Compiled in 203ms"}
+{"timestamp":"01:33:13.397","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:35:17.300","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"01:48:11.854","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"01:53:58.824","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"01:53:59.315","source":"Server","level":"LOG","message":"✓ Compiled in 178ms"}
+{"timestamp":"01:58:14.436","source":"Server","level":"ERROR","message":"⨯ TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"01:58:18.852","source":"Server","level":"LOG","message":"✓ Compiled in 8.2s"}
+{"timestamp":"03:03:11.365","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:04:01.004","source":"Server","level":"ERROR","message":"⨯ TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:01.048","source":"Server","level":"ERROR","message":"⨯ TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:01.410","source":"Browser","level":"ERROR","message":"uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:13.821","source":"Server","level":"ERROR","message":"⨯ TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:14.010","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:04:14.413","source":"Browser","level":"ERROR","message":"uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:14.684","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught TypeError: Cannot read properties of undefined (reading 'map')\\u001b[39m\\n\\u001b[31m    at parseLandingPageContent (src\\\\lib\\\\landing-page-api.ts:60:46)\\n    at getLandingPageContent (src\\\\lib\\\\landing-page-api.ts:80:10)\\n    at  Home (src\\\\app\\\\page.tsx:5:37)\\u001b[39m\\n  \\u001b[90m58 |\\u001b[0m     featuresSection: {\\n  \\u001b[90m59 |\\u001b[0m       ...payload.featuresSection,\\n\\u001b[31m\\u001b[1m>\\u001b[0m \\u001b[90m60 |\\u001b[0m       slides: payload.featuresSection.slides.map((slide) => ({\\n  \\u001b[90m   |\\u001b[0m                                              \\u001b[31m\\u001b[1m^\\u001b[0m\\n  \\u001b[90m61 |\\u001b[0m         ...slide,\\n  \\u001b[90m62 |\\u001b[0m         cards: slide.cards.map((card) => {\\n  \\u001b[90m63 |\\u001b[0m           \\u001b[36mif\\u001b[0m (!isFeatureCardVariant(card.variant)) {\""}
+{"timestamp":"03:04:14.685","source":"Browser","level":"ERROR","message":"\u001b[31mUncaught TypeError: Cannot read properties of undefined (reading 'map')\u001b[39m\n\u001b[31m    at parseLandingPageContent (src\\lib\\landing-page-api.ts:60:46)\n    at getLandingPageContent (src\\lib\\landing-page-api.ts:80:10)\n    at  Home (src\\app\\page.tsx:5:37)\u001b[39m\n  \u001b[90m58 |\u001b[0m     featuresSection: {\n  \u001b[90m59 |\u001b[0m       ...payload.featuresSection,\n\u001b[31m\u001b[1m>\u001b[0m \u001b[90m60 |\u001b[0m       slides: payload.featuresSection.slides.map((slide) => ({\n  \u001b[90m   |\u001b[0m                                              \u001b[31m\u001b[1m^\u001b[0m\n  \u001b[90m61 |\u001b[0m         ...slide,\n  \u001b[90m62 |\u001b[0m         cards: slide.cards.map((card) => {\n  \u001b[90m63 |\u001b[0m           \u001b[36mif\u001b[0m (!isFeatureCardVariant(card.variant)) {"}
+{"timestamp":"03:04:18.773","source":"Server","level":"ERROR","message":"⨯ TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:18.936","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:04:19.033","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught TypeError: Cannot read properties of undefined (reading 'map')\\u001b[39m\\n\\u001b[31m    at parseLandingPageContent (src\\\\lib\\\\landing-page-api.ts:60:46)\\n    at getLandingPageContent (src\\\\lib\\\\landing-page-api.ts:80:10)\\n    at  Home (src\\\\app\\\\page.tsx:5:37)\\u001b[39m\\n  \\u001b[90m58 |\\u001b[0m     featuresSection: {\\n  \\u001b[90m59 |\\u001b[0m       ...payload.featuresSection,\\n\\u001b[31m\\u001b[1m>\\u001b[0m \\u001b[90m60 |\\u001b[0m       slides: payload.featuresSection.slides.map((slide) => ({\\n  \\u001b[90m   |\\u001b[0m                                              \\u001b[31m\\u001b[1m^\\u001b[0m\\n  \\u001b[90m61 |\\u001b[0m         ...slide,\\n  \\u001b[90m62 |\\u001b[0m         cards: slide.cards.map((card) => {\\n  \\u001b[90m63 |\\u001b[0m           \\u001b[36mif\\u001b[0m (!isFeatureCardVariant(card.variant)) {\""}
+{"timestamp":"03:04:19.034","source":"Browser","level":"ERROR","message":"\u001b[31mUncaught TypeError: Cannot read properties of undefined (reading 'map')\u001b[39m\n\u001b[31m    at parseLandingPageContent (src\\lib\\landing-page-api.ts:60:46)\n    at getLandingPageContent (src\\lib\\landing-page-api.ts:80:10)\n    at  Home (src\\app\\page.tsx:5:37)\u001b[39m\n  \u001b[90m58 |\u001b[0m     featuresSection: {\n  \u001b[90m59 |\u001b[0m       ...payload.featuresSection,\n\u001b[31m\u001b[1m>\u001b[0m \u001b[90m60 |\u001b[0m       slides: payload.featuresSection.slides.map((slide) => ({\n  \u001b[90m   |\u001b[0m                                              \u001b[31m\u001b[1m^\u001b[0m\n  \u001b[90m61 |\u001b[0m         ...slide,\n  \u001b[90m62 |\u001b[0m         cards: slide.cards.map((card) => {\n  \u001b[90m63 |\u001b[0m           \u001b[36mif\u001b[0m (!isFeatureCardVariant(card.variant)) {"}
+{"timestamp":"03:04:19.034","source":"Browser","level":"ERROR","message":"uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:25.632","source":"Server","level":"ERROR","message":"⨯ TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:25.823","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:04:26.413","source":"Browser","level":"ERROR","message":"uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:29.341","source":"Server","level":"ERROR","message":"⨯ TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:29.537","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:04:30.409","source":"Browser","level":"ERROR","message":"uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')"}
+{"timestamp":"03:04:32.946","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:04:49.578","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:06:31.650","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"03:08:24.511","source":"Server","level":"LOG","message":"✓ Compiled in 0ms"}
+{"timestamp":"03:09:54.912","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:13:06.517","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"03:22:06.889","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"03:22:07.410","source":"Browser","level":"WARN","message":"Image with src \"/image1.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height."}
+{"timestamp":"03:22:07.410","source":"Browser","level":"WARN","message":"Image with src \"/iamge2.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height."}
+{"timestamp":"03:22:07.410","source":"Browser","level":"WARN","message":"Image with src \"/image3.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height."}
+{"timestamp":"03:33:50.749","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/image1.png\\\" has \\\"fill\\\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\\u001b[39m\""}
+{"timestamp":"03:33:50.749","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/image1.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\u001b[39m"}
+{"timestamp":"03:33:50.750","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/iamge2.png\\\" has \\\"fill\\\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\\u001b[39m\""}
+{"timestamp":"03:33:50.750","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/iamge2.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\u001b[39m"}
+{"timestamp":"03:33:50.750","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/image3.png\\\" has \\\"fill\\\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\\u001b[39m\""}
+{"timestamp":"03:33:50.750","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/image3.png\" has \"fill\" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.\u001b[39m"}
+{"timestamp":"03:34:01.234","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:37:58.549","source":"Server","level":"LOG","message":"✓ Compiled in 517ms"}
+{"timestamp":"03:37:59.940","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:38:22.125","source":"Browser","level":"WARN","message":"Image with src \"/image1.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"03:38:22.138","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/image1.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"03:38:22.143","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/image1.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\u001b[39m"}
+{"timestamp":"03:42:49.466","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"03:44:53.323","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"03:47:30.477","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"03:47:32.545","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"03:47:35.513","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"03:47:37.395","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"03:47:47.926","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"03:48:34.363","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"03:50:30.401","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"03:50:32.322","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"03:50:37.783","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:50:49.786","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"03:50:52.317","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"03:50:56.625","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"03:50:58.607","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"03:51:04.011","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"03:51:16.846","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"03:51:26.962","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"03:51:36.008","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"03:51:37.544","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"03:51:39.785","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"03:51:42.331","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"03:51:47.242","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"03:51:49.546","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"03:51:52.326","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"03:51:55.823","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"03:52:10.597","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"03:52:15.223","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"03:52:17.426","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"03:53:23.264","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"04:28:54.816","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"04:30:04.623","source":"Server","level":"LOG","message":"✓ Compiled in 57ms"}
+{"timestamp":"04:30:06.911","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"04:30:20.318","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"04:30:22.964","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"04:30:43.450","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"04:30:44.797","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"04:30:46.763","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
+{"timestamp":"04:30:49.881","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"04:33:13.933","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"04:33:16.321","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"04:33:28.643","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"04:33:31.147","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"04:34:10.417","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"04:34:17.558","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"04:35:05.715","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"04:35:08.256","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"04:39:00.529","source":"Server","level":"LOG","message":"✓ Compiled in 69ms"}
+{"timestamp":"04:39:48.039","source":"Server","level":"LOG","message":"✓ Compiled in 45ms"}
+{"timestamp":"04:49:08.879","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"04:49:11.163","source":"Server","level":"LOG","message":"✓ Compiled in 66ms"}
+{"timestamp":"04:49:12.479","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"04:49:46.060","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"04:51:54.116","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"04:52:00.067","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"04:52:06.163","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"04:52:13.117","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"04:52:20.453","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"04:52:28.349","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"04:52:39.220","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"04:52:47.676","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"04:52:53.767","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"04:53:01.091","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"04:53:03.224","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"04:53:06.062","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"04:53:13.532","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"04:53:18.597","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"04:53:26.929","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"04:53:37.996","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"04:53:52.503","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"04:54:03.713","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"04:54:16.691","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"04:54:26.915","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"04:54:33.994","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"04:54:36.052","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"04:54:42.342","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"04:54:49.774","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"04:54:58.748","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"04:55:06.769","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"04:55:10.053","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"04:55:18.853","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"04:55:28.681","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"04:55:30.801","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"04:55:39.868","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"04:55:50.773","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"04:55:56.870","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"04:56:03.835","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"04:56:46.404","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"04:56:51.839","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"04:57:15.072","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"04:57:17.754","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"04:57:38.893","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"04:57:41.023","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"04:59:48.934","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
+{"timestamp":"05:00:56.788","source":"Server","level":"LOG","message":"✓ Compiled in 61ms"}
+{"timestamp":"05:01:13.112","source":"Server","level":"LOG","message":"✓ Compiled in 53ms"}
+{"timestamp":"05:01:21.733","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"05:01:32.632","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"05:01:45.125","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"05:01:52.958","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"05:02:01.796","source":"Server","level":"LOG","message":"✓ Compiled in 57ms"}
+{"timestamp":"05:02:10.938","source":"Server","level":"LOG","message":"✓ Compiled in 53ms"}
+{"timestamp":"05:02:14.724","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"05:03:50.827","source":"Server","level":"LOG","message":"✓ Compiled in 61ms"}
+{"timestamp":"05:08:23.622","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"05:11:55.682","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"05:11:56.334","source":"Server","level":"LOG","message":"✓ Compiled in 0ms"}
+{"timestamp":"05:12:49.994","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"05:13:38.089","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"05:15:23.111","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"05:18:37.698","source":"Server","level":"LOG","message":"✓ Compiled in 0ms"}
+{"timestamp":"05:19:13.100","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"05:21:10.985","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"05:21:37.749","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"05:21:48.151","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"05:32:35.332","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:35.339","source":"Server","level":"ERROR","message":"⨯ \"unhandledRejection:\" Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:35.346","source":"Server","level":"ERROR","message":"⨯ \"unhandledRejection: \" Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:35.433","source":"Server","level":"ERROR","message":"⨯ PageNotFoundError: Cannot find module for page: route not found /_not-found/page"}
+{"timestamp":"05:32:37.288","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.325","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.419","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.454","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.504","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.509","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.529","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.535","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.548","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.552","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.568","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.575","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.589","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.594","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.605","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.609","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.622","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.626","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.641","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.645","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.732","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.736","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.745","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.748","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.753","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.756","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.763","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.766","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.772","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.775","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.786","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.788","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.797","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.799","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.804","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.808","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.815","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.818","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.824","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.827","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.838","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.840","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.847","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.850","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.858","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:37.863","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:59.880","source":"Server","level":"LOG","message":"✓ Compiled in 280ms"}
+{"timestamp":"05:32:59.914","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:59.919","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:32:59.942","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
+{"timestamp":"05:33:00.040","source":"Server","level":"ERROR","message":"Error: ENOENT: no such file or directory, scandir 'D:\\Tobor\\persnol\\Grafterr\\Grafterr-Landing-Page\\landingpage\\src\\app'"}
