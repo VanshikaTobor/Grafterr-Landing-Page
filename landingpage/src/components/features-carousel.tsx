@@ -7,9 +7,9 @@ import type { FeatureCard, FeaturesSectionContent } from "@/lib/landing-page-api
 
 function FeatureCardView({ card }: { card: FeatureCard }) {
   return (
-    <article className="rounded-[1.75rem] border border-slate-200 bg-slate-50 p-4 shadow-sm shadow-slate-200/70 sm:p-5">
+    <article className="rounded-[1.75rem]  bg-[#FAFAFA] p-4 shadow-sm shadow-slate-200/70 sm:p-5">
       <h3 className="text-base font-semibold text-slate-950 sm:text-lg">{card.title}</h3>
-      <div className="relative mt-4 aspect-[5/6] overflow-hidden rounded-[1.5rem] bg-white shadow-[0_15px_40px_-30px_rgba(15,23,42,0.25)] sm:mt-5 md:aspect-[4/5] lg:aspect-[5/6]">
+      <div className="relative mt-4 aspect-[5/6] overflow-hidden rounded-[1.5rem] bg-[#FAFAFA] shadow-[0_15px_40px_-30px_rgba(15,23,42,0.25)] sm:mt-5 md:aspect-[4/5] lg:aspect-[5/6]">
         <Image
           src={card.image.src}
           alt={card.image.alt}
